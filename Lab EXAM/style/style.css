@@ -1,44 +1,45 @@
-body {
+.body {
+	
 	font-family: Arial, sans-serif;
 }
 
-header {
+.header {
 	background-color: #333;
 	color: #fff;
 	padding: 20px;
 }
 
-h1 {
+.h1 {
 	margin: 0;
 }
 
-nav ul {
+.nav ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-nav li {
-	display: inline-block;
-	margin-right: 20px;
+.nav li {
+	display: inline-block; 
+	margin-right: 20px ;
 }
 
-nav a {
+.nav a {
 	color: #fff;
 	text-decoration: none;
 }
 
-main {
+.main {
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 20px;
 }
 
-section {
+.section {
 	margin-bottom: 40px;
 }
 
-h2 {
+.h2 {
 	margin-top: 0;
 }
 
@@ -60,14 +61,14 @@ h2 {
 	max-width: 50px;
 }
 
-form label {
+.form label {
 	display: block;
 	margin-bottom: 10px;
 }
 
-form input[type="text"],
-form input[type="email"],
-form textarea {
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
 	display: block;
 	margin-bottom: 20px;
 	padding: 10px;
@@ -75,7 +76,7 @@ form textarea {
 	width: 100%;
 }
 
-form input[type="submit"] {
+.form input[type="submit"] {
 	background-color: #333;
 	color: #fff;
 	padding: 10px 20px;
@@ -83,7 +84,7 @@ form input[type="submit"] {
 	cursor: pointer;
 }
 
-footer {
+.footer {
 	background-color: #333;
 	color: #fff;
 	padding: 20px;
